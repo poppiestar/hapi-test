@@ -1,0 +1,16 @@
+{
+  "name": "discog",
+  "version": "1.0.0",
+  "description": "Testing Hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "good": "^5.1.2",
+    "good-console": "^4.1.0",
+    "hapi": "^8.4.0"
+  }
+}
