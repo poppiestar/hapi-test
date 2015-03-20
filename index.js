@@ -4,6 +4,15 @@ var Good = require('good');
 var routes = require('./lib/routes');
 
 var server = new Hapi.Server();
+
+server.views({
+    engines: {
+        marko: require('hapi-marko')
+    },
+    relativeTo: __dirname,
+    path: './views'
+});
+
 server.connection({ port: 3000 });
 
 server.route({

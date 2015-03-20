@@ -12,6 +12,7 @@
     "good": "^5.1.2",
     "good-console": "^4.1.0",
     "hapi": "^8.4.0",
+    "hapi-marko": "git+https://github.com/poppiestar/hapi-marko",
     "marko": "^2.1.0"
   }
 }

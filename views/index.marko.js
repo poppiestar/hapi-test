@@ -3,7 +3,7 @@ exports.create = function(__helpers) {
       empty = __helpers.e,
       notEmpty = __helpers.ne,
       __loadTemplate = __helpers.l,
-      __layout_marko = __loadTemplate(require.resolve("./layout.marko")),
+      __layout_layout_marko = __loadTemplate(require.resolve("./layout/layout.marko")),
       __renderer = __helpers.r,
       marko_node_modules_marko_layout_use_tag = __renderer(require("marko/node_modules/marko-layout/use-tag")),
       __tag = __helpers.t,
@@ -15,7 +15,7 @@ exports.create = function(__helpers) {
     __tag(out,
       marko_node_modules_marko_layout_use_tag,
       {
-        "template": __layout_marko,
+        "template": __layout_layout_marko,
         "getContent": function(__layoutHelper) {
           __tag(out,
             marko_node_modules_marko_layout_put_tag,
@@ -33,7 +33,7 @@ exports.create = function(__helpers) {
               "layout": __layoutHelper
             },
             function(out) {
-              out.w('<p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p>');
+              out.w('<p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p><p>This is the Hello page template</p>');
               __tag(out,
                 marko_node_modules_marko_async_async_fragment_tag,
                 {
